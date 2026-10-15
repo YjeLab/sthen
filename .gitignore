@@ -1,0 +1,17 @@
+# Data & artifacts
+Data/
+Checkpoints/
+*.npz
+*.npy
+*.tar.gz
+*.xlsx
+out_*.txt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
