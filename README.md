@@ -37,7 +37,14 @@ pip install -r requirements.txt
 
 ## Data preparation
 
-Place each dataset under `Data/<Name>/` as described in `data/README.md`. Dataset sources and provenance are documented in `docs/DATASETS.md`.
+Seven of the ten benchmark datasets (PEMS03, PEMS04, BikeNYC, BikeNYC2,
+TaxiNYC2, TrafficTJ, TrafficZZ) are shipped under `data/` together with
+one-line conversion commands; see `data/README.md`. The remaining datasets
+(TaxiBJ, TaxiCQ, TDrive) are too large to redistribute and are obtained from
+their original providers as described in `docs/DATASETS.md`.
+
+After conversion, the training script reads the sliding-window files from
+`Data/<Name>/`.
 
 ## Training
 

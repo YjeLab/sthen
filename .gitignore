@@ -1,8 +1,6 @@
-# Data & artifacts
+# Data & artifacts produced by training (the shipped datasets live under data/)
 Data/
 Checkpoints/
-*.npz
-*.npy
 *.tar.gz
 *.xlsx
 out_*.txt
