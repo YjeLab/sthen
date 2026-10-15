@@ -1,5 +1,8 @@
-# Data & artifacts produced by training (the shipped datasets live under data/)
+# Local experiment outputs (the shipped datasets live under data/)
 Data/
+!data/
+!data/**
+Data/**/*.npy
 Checkpoints/
 *.tar.gz
 *.xlsx
